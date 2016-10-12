@@ -7,9 +7,8 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.TextView;
 import android.graphics.drawable.GradientDrawable;
-import java.util.ArrayList;
-import java.text.DecimalFormat;
 import java.util.List;
+import java.text.DecimalFormat;
 
 import android.support.v4.content.ContextCompat;
 /**
@@ -70,7 +69,6 @@ public class EarthquakeAdapter extends ArrayAdapter<EarthquakeFore> {
 
         TextView timeTextView = (TextView) listItemView.findViewById(R.id.earth_time);
         timeTextView.setText(currentearthquakefore.getmOccurtime());
-
 
         return listItemView;
     }
